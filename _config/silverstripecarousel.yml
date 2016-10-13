@@ -1,0 +1,6 @@
+---
+name: silverstripecarousel
+---
+SiteTree:
+  extensions:
+    - CarouselSiteTreeExtension
