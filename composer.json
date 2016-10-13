@@ -1,0 +1,20 @@
+{
+  "name": "beedubsss/silverstripe-carousel",
+  "description": "Simple carousel data object extension",
+  "type": "silverstripe-module",
+  "keywords": ["silverstripe", "carousel"],
+  "homepage": "https://github.com/beedubsss/silverstripe-carousel",
+  "authors": [
+    {
+      "name": "Brenton Wong",
+      "email": "brenton@blenderstudio.nz"
+    }
+  ],
+  "require": {
+    "silverstripe/framework": "3.*",
+    "silverstripe/cms": "3.*"
+  },
+  "support": {
+    "issues": ""
+  }
+}

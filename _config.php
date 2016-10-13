@@ -1,0 +1,4 @@
+<?php
+
+define('SILVERSTRIPE_CAROUSEL_DIR', 'silverstripe-carousel');
+define('SILVERSTRIPE_CAROUSEL_PATH', BASE_PATH . '/' . SILVERSTRIPE_CAROUSEL_DIR);
