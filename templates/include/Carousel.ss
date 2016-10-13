@@ -15,6 +15,13 @@
             <div class="carousel-item <% if $Pos(0) = 0 %>active<% end_if %>">
                 <img class="carousel-image large-screen" src="$DesktopImage.CroppedImage(2000,1000).URL" alt="$Title" />
                 <img class="carousel-image small-screen" src="<% if $MobileImage %>$MobileImage.URL<% else %>$DesktopImage.CroppedImage(1000,2000).URL<% end_if %>" alt="$Title" />
+                <div class="carousel-caption">
+                    <div class="carousel-caption-inner">
+                        <h1>$Header</h1>
+                        <div class="caption">$Caption</div>
+                        <a href="$ButtonLink.Link">$ButtonText</a>
+                    </div>
+                </div>
             </div>
         <% end_loop %>
     </div>
