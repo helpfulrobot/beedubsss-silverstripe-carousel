@@ -4,3 +4,9 @@ name: silverstripecarousel
 SiteTree:
   extensions:
     - CarouselSiteTreeExtension
+ContentController:
+  extensions:
+    - CarouselPageControllerExtension
+SiteConfig:
+  extensions:
+    - CarouselSiteConfigExtension

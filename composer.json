@@ -2,7 +2,10 @@
   "name": "beedubsss/silverstripe-carousel",
   "description": "Simple carousel data object extension",
   "type": "silverstripe-module",
-  "keywords": ["silverstripe", "carousel"],
+  "keywords": [
+    "silverstripe",
+    "carousel"
+  ],
   "homepage": "https://github.com/beedubsss/silverstripe-carousel",
   "authors": [
     {
@@ -12,9 +15,9 @@
   ],
   "require": {
     "silverstripe/framework": "3.*",
-    "silverstripe/cms": "3.*"
+    "silverstripe/cms": "3.*",
+    "lrc/silverstripe-link-field": "dev-master",
+    "undefinedoffset/sortablegridfield": "dev-master"
   },
-  "support": {
-    "issues": ""
-  }
+  "minimum-stability": "dev"
 }
